@@ -140,9 +140,10 @@ blockquote {
 .white-text {
   padding-bottom: 1em;
   font-weight: 600;
+  font-size: 1.6em;
   
   @include tablet {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   @include desktop {
