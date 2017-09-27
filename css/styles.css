@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.8; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Coolors Exported Palette - coolors.co/e63946-fed766-db3069-fdfdff-2a2b2a */
+/* HSL */
+/* RGB */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  position: relative;
+  background-color: #395756;
+  -webkit-font-smoothing: antialiased;
+  color: white; }
+
+html, body {
+  height: 100vh; }
+
+.Aligner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .Aligner {
+      padding: 1em 0em 0em 0em; } }
+  @media (min-width: 1024px) {
+    .Aligner {
+      padding: 10em 0em 0em 0em; } }
+
+/*.Aligner-item {
+  //width: 100%;
+  justify-content: space-between;
+  height: 600px;
+}*/
+.Aligner-item--top {
+  align-self: flex-start; }
+
+.Aligner-item--bottom {
+  align-self: flex-end; }
+
+hr {
+  min-width: 100%;
+  border: none;
+  background-color: white;
+  height: 2px;
+  margin-left: 0;
+  margin-bottom: 3em;
+  margin-top: 2em; }
+
+.wrapper {
+  max-width: 770px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em 1.2em 1.2em 1.2em; }
+
+h1 {
+  font-size: 2.5em;
+  line-height: 2.7em;
+  color: #fdfdff; }
+
+h2 {
+  font-size: 2.2em;
+  color: #db3069; }
+
+h3 {
+  font-size: 2.2em;
+  color: #fed766; }
+
+blockquote {
+  padding: 10px 0 0px 20px;
+  margin: 0 0 0px;
+  border-left: 5px solid #eee; }
+
+.gmarker {
+  background-color: #29FCA5; }
+
+.black-text {
+  color: black; }
+
+.white-text {
+  padding-bottom: 1em;
+  font-weight: 600; }
+
+p {
+  text-align: justify; }
