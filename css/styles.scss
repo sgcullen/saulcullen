@@ -1,0 +1,147 @@
+@import "reset";
+@import "sc-palette";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
+
+
+
+
+
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    position: relative;
+    //color: #FDFDFF;
+    background-color: #395756;
+    //background-color: $color2;    
+    -webkit-font-smoothing: antialiased;
+    color: white;
+}
+
+html, body
+{
+    height: 100vh;
+}
+
+
+.Aligner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  //justify-content: space-between;
+  //align-content: space-between;
+  //padding: 10em 0em 0em 0em;
+  //min-height: 16em;
+  
+  
+  @include tablet {
+    padding: 1em 0em 0em 0em;
+  }
+
+  @include desktop {
+    padding: 10em 0em 0em 0em;
+  }
+  
+  
+}
+
+/*.Aligner-item {
+  //width: 100%;
+  justify-content: space-between;
+  height: 600px;
+}*/
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+
+hr {
+  min-width: 100%;
+    border: none;
+    background-color: white;
+    height: 2px;
+    margin-left: 0;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.wrapper {
+max-width : 770px ;
+text-align : left ;
+margin-left : auto ;
+margin-right : auto ;
+padding: 0em 1.2em 1.2em 1.2em;
+//position : relative ; //only for absolute positioned elements
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 2.7em;
+  color: $color4;
+}
+
+h2 {
+  font-size: 2.2em;
+  //line-height: 2.2em;
+  //margin-after: 1em;
+  color: $color3;
+}
+
+h3 {
+  font-size: 2.2em;
+  //line-height: 2.2em;
+  color: $color2;
+}
+
+
+blockquote {
+    padding: 10px 0 0px 20px;
+    margin: 0 0 0px;
+    border-left: 5px solid #eee;
+}
+
+.gmarker {
+    background-color: #29FCA5;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+  padding-bottom: 1em;
+  font-weight: 600;
+}
+
+p {
+  text-align: justify;
+}
