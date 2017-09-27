@@ -140,6 +140,14 @@ blockquote {
 .white-text {
   padding-bottom: 1em;
   font-weight: 600;
+  
+  @include tablet {
+    font-size: 2em;
+  }
+
+  @include desktop {
+    font-size: 2em;
+  }
 }
 
 p {
