@@ -121,7 +121,7 @@ blockquote {
       font-size: 2em; } }
   @media (min-width: 1024px) {
     .white-text {
-      font-size: 2em; } }
+      font-size: 1em; } }
 
 p {
   text-align: justify; }
