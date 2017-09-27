@@ -116,6 +116,12 @@ blockquote {
 .white-text {
   padding-bottom: 1em;
   font-weight: 600; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .white-text {
+      font-size: 2em; } }
+  @media (min-width: 1024px) {
+    .white-text {
+      font-size: 2em; } }
 
 p {
   text-align: justify; }
