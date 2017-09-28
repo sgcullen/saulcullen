@@ -16,7 +16,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  line-height: 1.8; }
+  line-height: 1.0; }
 
 ol, ul {
   list-style: none; }
@@ -41,12 +41,19 @@ table {
 /* RGB */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 800;
   position: relative;
   background-color: #395756;
   -webkit-font-smoothing: antialiased;
-  color: white; }
+  color: white;
+  line-height: 1.25; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      line-height: 1.375; } }
+  @media (min-width: 1024px) {
+    body {
+      line-height: 1.375; } }
 
 html, body {
   height: 100vh; }
@@ -79,8 +86,8 @@ hr {
   background-color: white;
   height: 2px;
   margin-left: 0;
-  margin-bottom: 3em;
-  margin-top: 2em; }
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 .wrapper {
   max-width: 770px;
@@ -90,16 +97,18 @@ hr {
   padding: 0em 1.2em 1.2em 1.2em; }
 
 h1 {
-  font-size: 2.5em;
-  line-height: 2.7em;
+  font-size: 250%;
+  line-height: 180%;
   color: #fdfdff; }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 200%;
+  line-height: 180%;
   color: #db3069; }
 
 h3 {
-  font-size: 2.2em;
+  font-size: 200%;
+  line-height: 180%;
   color: #fed766; }
 
 blockquote {
@@ -114,15 +123,15 @@ blockquote {
   color: black; }
 
 .white-text {
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   font-weight: 600;
-  font-size: 1.6em; }
+  font-size: 110%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .white-text {
-      font-size: 1.6em; } }
+      font-size: 100%; } }
   @media (min-width: 1024px) {
     .white-text {
-      font-size: 1.2em; } }
+      font-size: 100%; } }
 
 p {
-  text-align: justify; }
+  text-align: left; }
