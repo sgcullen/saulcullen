@@ -97,7 +97,7 @@ hr {
   padding: 0em 1.2em 1.2em 1.2em; }
 
 h1 {
-  font-size: 200%;
+  font-size: 180%;
   line-height: 180%;
   color: #fdfdff; }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -108,7 +108,7 @@ h1 {
       font-size: 250%; } }
 
 h2 {
-  font-size: 150%;
+  font-size: 135%;
   line-height: 180%;
   color: #db3069; }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -119,7 +119,7 @@ h2 {
       font-size: 200%; } }
 
 h3 {
-  font-size: 150%;
+  font-size: 135%;
   line-height: 180%;
   color: #fed766; }
   @media (min-width: 768px) and (max-width: 1023px) {
