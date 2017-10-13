@@ -37,7 +37,8 @@ body {
     position: relative;
     //color: #FDFDFF;
     background-color: #395756;
-    //background-color: $color2;    
+    //background-color: $color2;
+    //background-color: white;    
     -webkit-font-smoothing: antialiased;
     color: white;
     line-height: 1.25;
@@ -56,6 +57,12 @@ html, body
 {
     height: 100vh;
 }
+
+a {
+  //color: blue;
+  text-decoration: none; /* no underline */
+}
+
 
 
 .Aligner {
@@ -101,16 +108,15 @@ hr {
   height: 2px;
   margin-left: 0;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .wrapper {
-max-width : 770px ;
-text-align : left ;
-margin-left : auto ;
-margin-right : auto ;
-padding: 0em 1.2em 1.2em 1.2em;
-//position : relative ; //only for absolute positioned elements
+  max-width : 770px ;
+  text-align : left ;
+  margin-left : auto ;
+  margin-right : auto ;
+  padding: 0em 1.2em 1.2em 1.2em;
 }
 
 h1 {
@@ -165,7 +171,7 @@ h3 {
 
 
 blockquote {
-    padding: 10px 0 0px 20px;
+    padding: 0px 0 0px 20px;
     margin: 0 0 0px;
     border-left: 5px solid #eee;
 }
@@ -178,8 +184,13 @@ blockquote {
     color: black;
 }
 
+p {
+  text-align: left;
+}
+
 .white-text {
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
   font-weight: 600;
   font-size: 95%;
   
@@ -189,9 +200,37 @@ blockquote {
 
   @include desktop {
     font-size: 100%;
+    padding-top: 1.325em;
   }
 }
 
-p {
-  text-align: left;
+
+.connect{
+  margin-top: 70px;  
+}
+
+.connect--engage {
+  color: white;
+}
+
+.connect--twitter {
+  color: #1573dd;
+}
+
+.connect--linkedin {
+  color: #0177b5;
+}
+
+.connect--email {
+  color: $color3;
+}
+
+.connect--bullet {
+  //color: $color2;
+}
+
+
+.copy-saul {
+  margin-top: 70px;
+  color: $color2;
 }
